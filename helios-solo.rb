@@ -6,7 +6,7 @@ class HeliosSolo < Formula
   sha1 "18cb35754f31c3dbe3517cdff0bde07b9429f28b"
   version "0.8.213"
 
-  depends_on :helios => "0.8.213"
+  depends_on "helios" => "0.8.213"
 
   def install
     bin.install 'helios-cleanup'

@@ -2,11 +2,11 @@ require "formula"
 
 class HeliosSolo < Formula
   homepage "https://github.com/spotify/helios"
-  url "https://github.com/spotify/helios/releases/download/0.8.213/helios-solo.zip"
-  sha1 "18cb35754f31c3dbe3517cdff0bde07b9429f28b"
-  version "0.8.213"
+  url "https://github.com/spotify/helios/releases/download/0.8.236/helios-solo.zip"
+  sha1 "1a06f95b7061f5620311abb1d88552fac2a8b079"
+  version "0.8.236"
 
-  depends_on "helios" => "0.8.213"
+  depends_on "helios" => "0.8.236"
 
   def install
     bin.install 'helios-cleanup'

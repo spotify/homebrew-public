@@ -7,6 +7,7 @@ class HeliosSolo < Formula
   version "0.8.245"
 
   depends_on "helios" => "0.8.245"
+  depends_on "jq"
 
   def install
     bin.install 'helios-cleanup'

@@ -12,7 +12,6 @@ class HeliosSolo < Formula
   def install
     bin.install 'helios-cleanup'
     bin.install 'helios-down'
-    bin.install 'helios-enter'
     bin.install 'helios-env'
     bin.install 'helios-restart'
     bin.install 'helios-solo'

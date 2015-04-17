@@ -6,7 +6,7 @@ class Helios < Formula
   sha1 "072461e7256fcbeb2013ded33a4f8eb427b1c9a9"
   version "0.8.279"
 
-  depends_on :java => "1.7"
+  depends_on :java => "1.7+"
 
   def install
     libexec.install "helios-tools-0.8.279-shaded.jar"

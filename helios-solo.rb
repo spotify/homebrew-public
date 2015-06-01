@@ -6,7 +6,7 @@ class HeliosSolo < Formula
   sha1 "4d653f616f2bc37b8e8e7d2c71b8835025cc81dc"
   version "0.8.341"
 
-  depends_on "helios" => "0.8.341"
+  depends_on "spotify/public/helios" => "0.8.341"
   depends_on "jq"
 
   def install

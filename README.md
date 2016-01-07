@@ -15,10 +15,3 @@ You can also install via URL:
 
 ## Docs
 `brew help`, `man brew`, or the Homebrew [README](https://github.com/Homebrew/homebrew/tree/master/share/doc/homebrew#readme).
-
-
-## Contributing
-
-Please see the [contributing] guide.
-
-[contributing]: https://github.com/spotify/homebrew-public/blob/master/CONTRIBUTING.md

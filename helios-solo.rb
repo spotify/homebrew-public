@@ -2,11 +2,11 @@ require "formula"
 
 class HeliosSolo < Formula
   homepage "https://github.com/spotify/helios"
-  url "https://github.com/spotify/helios/releases/download/0.8.684/helios-solo.zip"
-  sha1 "d1c54d15e572231ec0fd708d17ca1c03444ce65a"
-  version "0.8.684"
+  url "https://github.com/spotify/helios/releases/download/0.8.688/helios-solo.zip"
+  sha1 "bec510e3e139b8dd219d7cba73bb66d1a2e0d14b"
+  version "0.8.688"
 
-  depends_on "spotify/public/helios" => "0.8.684"
+  depends_on "spotify/public/helios" => "0.8.688"
   depends_on "jq"
 
   def install

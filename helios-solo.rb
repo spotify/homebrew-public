@@ -3,7 +3,7 @@ require "formula"
 class HeliosSolo < Formula
   homepage "https://github.com/spotify/helios"
   url "https://github.com/spotify/helios/releases/download/0.8.771/helios-solo.zip"
-  sha1 "200572b3f961a283608ff9db94dd03fe42b5be99"
+  sha256 "806dbd24a27a02ee3e4b5b880a21894a23903e8777df79e65b7902f70832f921"
   version "0.8.771"
 
   depends_on "spotify/public/helios" => "0.8.771"

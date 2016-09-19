@@ -1,22 +1,20 @@
-require "formula"
-
 class HeliosSolo < Formula
   homepage "https://github.com/spotify/helios"
   url "https://github.com/spotify/helios/releases/download/0.8.850/helios-solo.zip"
-  sha256 "8b6c9c360798cbe889371f3b28122b234717621696581c38ecf57e67f90eef54"
   version "0.8.850"
+  sha256 "8b6c9c360798cbe889371f3b28122b234717621696581c38ecf57e67f90eef54"
 
-  depends_on "spotify/public/helios" => "0.8.850"
+  depends_on "spotify/public/helios"
   depends_on "jq"
 
   def install
-    bin.install 'helios-cleanup'
-    bin.install 'helios-down'
-    bin.install 'helios-env'
-    bin.install 'helios-restart'
-    bin.install 'helios-solo'
-    bin.install 'helios-up'
-    bin.install 'helios-use'
+    bin.install "helios-cleanup"
+    bin.install "helios-down"
+    bin.install "helios-env"
+    bin.install "helios-restart"
+    bin.install "helios-solo"
+    bin.install "helios-up"
+    bin.install "helios-use"
   end
 
   def caveats; <<-EOS.undent

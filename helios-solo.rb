@@ -1,8 +1,8 @@
 class HeliosSolo < Formula
   homepage "https://github.com/spotify/helios"
-  url "https://github.com/spotify/helios/releases/download/0.8.850/helios-solo.zip"
-  version "0.8.850"
-  sha256 "8b6c9c360798cbe889371f3b28122b234717621696581c38ecf57e67f90eef54"
+  url "https://github.com/spotify/helios/releases/download/0.9.2/helios-solo.zip"
+  version "0.9.2"
+  sha256 "3f89e9bab522f271a007dbfe204d56609478205e5e2d3139da01557aa94e9dc5"
 
   depends_on "spotify/public/helios"
   depends_on "jq"

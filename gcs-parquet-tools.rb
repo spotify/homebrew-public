@@ -1,9 +1,9 @@
 class GcsParquetTools < Formula
   desc "GCS compatible Apache Parquet Tools"
   homepage "https://github.com/spotify/gcs-tools"
-  url "https://github.com/spotify/gcs-tools/releases/download/v0.1.3/parquet-tools-1.8.1.jar"
-  sha256 "67ec332bec9aec84a334e4729a2a7ce497ead19e459188c0f44ab2ca62529df9"
-  version "0.1.3"
+  url "https://github.com/spotify/gcs-tools/releases/download/v0.1.4/parquet-tools-1.8.1.jar"
+  sha256 "b62c2a651b40213a6f090d3930f4b52ff398548ec1a9d57efabfe5b6d913c24d"
+  version "0.1.4"
 
   conflicts_with "parquet-tools", :because => "provides the same binaries/links."
 

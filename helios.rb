@@ -2,15 +2,15 @@ require "formula"
 
 class Helios < Formula
   homepage "https://github.com/spotify/helios"
-  url "https://oss.sonatype.org/service/local/repositories/releases/content/com/spotify/helios-tools/0.9.66/helios-tools-0.9.66-shaded.jar"
-  sha256 "611213056d417e17a0bf26deb02020de52941f8bdd2121d264da9630f580fa59"
-  version "0.9.66"
+  url "https://oss.sonatype.org/service/local/repositories/releases/content/com/spotify/helios-tools/0.9.67/helios-tools-0.9.67-shaded.jar"
+  sha256 "a6919185bfc2695f1c3e82d14800073867be65298fd7cde60cb0391958479159"
+  version "0.9.67"
 
   depends_on :java => "1.7+"
 
   def install
-    libexec.install "helios-tools-0.9.66-shaded.jar"
-    bin.write_jar_script libexec/"helios-tools-0.9.66-shaded.jar", "helios", "-XX:+TieredCompilation -XX:TieredStopAtLevel=1 -Xverify:none"
+    libexec.install "helios-tools-0.9.67-shaded.jar"
+    bin.write_jar_script libexec/"helios-tools-0.9.67-shaded.jar", "helios", "-XX:+TieredCompilation -XX:TieredStopAtLevel=1 -Xverify:none"
   end
 
   test do

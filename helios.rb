@@ -3,7 +3,7 @@ require "formula"
 class Helios < Formula
   homepage "https://github.com/spotify/helios"
   url "https://oss.sonatype.org/service/local/repositories/releases/content/com/spotify/helios-tools/0.9.67/helios-tools-0.9.67-shaded.jar"
-  sha256 "a6919185bfc2695f1c3e82d14800073867be65298fd7cde60cb0391958479159"
+  sha256 "08cd684f166b27cd762f21c9b9d6db94af9a0154a88205a5e8a15c2fe7174db4"
   version "0.9.67"
 
   depends_on :java => "1.7+"

@@ -20,7 +20,7 @@ class Scio < Formula
           fi
       done
 
-      exec java ${java_opts[*]} -jar #{libexec}/"scio-repl-#{version}.jar" ${scio_opts[*]}
+      CLASSPATH=#{libexec}/"scio-repl-#{version}.jar":$CLASSPATH exec java ${java_opts[*]} ${scio_opts[*]} java com.spotify.scio.repl.ScioShell
     EOS
   end
 

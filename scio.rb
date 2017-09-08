@@ -13,7 +13,7 @@ class Scio < Formula
       java_opts=()
       scio_opts=()
       for o in "$@"; do
-          if [[ "$o" =~ ^-D.* ]]; then
+          if [[ "$o" =~ ^-D.* || "$o" =~ ^-X.* ]]; then
               java_opts+=("$o")
           else
               scio_opts+=("$o")
@@ -25,6 +25,6 @@ class Scio < Formula
   end
 
   test do
-    shell_output("#{bin}/scio-repl -X", 1)
+    shell_output("#{bin}/scio-repl -Y", 1)
   end
 end

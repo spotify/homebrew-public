@@ -14,4 +14,4 @@ You can also install via URL:
 
 
 ## Docs
-`brew help`, `man brew`, or the Homebrew [README](https://github.com/Homebrew/homebrew/tree/master/share/doc/homebrew#readme).
+`brew help`, `man brew`, or the Homebrew [README](https://github.com/Homebrew/brew/blob/master/docs/README.md).

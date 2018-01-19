@@ -8,7 +8,7 @@ class Scio < Formula
 
   def install
     libexec.install "scio-repl-#{version}.jar"
-    (bin+"scio-repl").write <<-EOS.undent
+    (bin+"scio-repl").write <<~EOS
       #!/usr/bin/env bash
       java_opts=()
       scio_opts=()

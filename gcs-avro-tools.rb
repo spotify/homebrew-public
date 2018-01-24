@@ -1,9 +1,9 @@
 class GcsAvroTools < Formula
   desc "GCS compatible Apache Avro Tools"
   homepage "https://github.com/spotify/gcs-tools"
-  url "https://github.com/spotify/gcs-tools/releases/download/v0.1.5/avro-tools-1.8.2.jar"
-  sha256 "dd843e3d36aa68557d2d45748b320a87d9fe8d738ec37e412a943ad3ba2b277d"
-  version "0.1.5"
+  url "https://github.com/spotify/gcs-tools/releases/download/v0.1.6/avro-tools-1.8.2.jar"
+  sha256 "7fa9faa3577336cd85ddadc2bcf672fb114be1273ad2aeebe478ac9d5a8b5afa"
+  version "0.1.6"
 
   conflicts_with "avro-tools", :because => "provides the same binaries/links."
 

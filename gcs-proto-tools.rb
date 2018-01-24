@@ -1,9 +1,9 @@
 class GcsProtoTools < Formula
   desc "GCS compatible tools for Scio Protobuf in Avro file"
   homepage "https://github.com/spotify/gcs-tools"
-  url "https://github.com/spotify/gcs-tools/releases/download/v0.1.5/proto-tools-3.4.0.jar"
-  sha256 "d365ef1bdb855d36d10538733d5cacb4db8defafa9b78eda14b831a0e042ea44"
-  version "0.1.5"
+  url "https://github.com/spotify/gcs-tools/releases/download/v0.1.6/proto-tools-3.4.0.jar"
+  sha256 "6b116a1912d83daac6b5f16f2d001e6bb74185a6faaa2e8a646d812f553b8d5e"
+  version "0.1.6"
 
   bottle :unneeded
 

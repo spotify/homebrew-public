@@ -1,8 +1,8 @@
 class Ratatool < Formula
   desc "Tool for random data sampling and generation"
   homepage "https://github.com/spotify/ratatool"
-  url "https://github.com/spotify/ratatool/releases/download/v0.2.2/ratatool-0.2.2.jar"
-  sha256 "2fdba13e61bbc0f02b056ee97ef0478b9934f12da2c622dd2efabd9dd86663d9"
+  url "https://github.com/spotify/ratatool/releases/download/v0.3.0/ratatool-0.3.0.jar"
+  sha256 "7933bc2977575cfb80b7f42cde9a303e4602e19465d1fe2ac9c66ca7e10bfe78"
 
   bottle :unneeded
 

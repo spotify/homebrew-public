@@ -6,12 +6,10 @@ class Ratatool < Formula
 
   def install
       lib.install Dir["lib/*.jar"]
-      bin.install "bin/big-diffy"
-      bin.install "bin/big-sampler"
-      bin.install "bin/tool"
+      bin.install "bin/ratatool"
   end
 
   test do
-    system "#{bin}/tool"
+    system "#{bin}/ratatool directSampler"
   end
 end

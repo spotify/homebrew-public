@@ -17,7 +17,7 @@ class HeliosSolo < Formula
     bin.install "helios-use"
   end
 
-  def caveats; <<-EOS.undent
+  def caveats; <<~EOS
     This formula installs the latest version of the helios-solo tools,
     but it doesn't upgrade the Helios image. If you have upgraded from
     an older version of helios-solo, switch to the latest image by

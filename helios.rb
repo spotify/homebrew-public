@@ -9,8 +9,13 @@ class Helios < Formula
   depends_on :java => "1.7+"
 
   def install
-    libexec.install "helios-tools-0.9.231-shaded.jar"
-    bin.write_jar_script libexec/"helios-tools-0.9.231-shaded.jar", "helios", "-XX:+TieredCompilation -XX:TieredStopAtLevel=1 -Xverify:none"
+    jarfile = "helios-tools-#{version}-shaded.jar"
+    libexec.install jarfile
+    (bin+"helios").write <<~EOS
+      #!/usr/bin/env bash
+      export SUPPRESS_GCLOUD_CREDS_WARNING=true
+      exec java -XX:+TieredCompilation -XX:TieredStopAtLevel=1 -Xverify:none -jar #{libexec}/#{jarfile} "$@"
+    EOS
   end
 
   test do

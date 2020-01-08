@@ -1,8 +1,8 @@
 class Scio < Formula
   desc "Scala API for Apache Beam and Google Cloud Dataflow"
   homepage "https://github.com/spotify/scio/"
-  url "https://github.com/spotify/scio/releases/download/v0.7.4/scio-repl-0.7.4.jar"
-  sha256 "bae4d505086406fbb140cca2c3a8851bf201e11615dfd0a8406735ce81c499a9"
+  url "https://github.com/spotify/scio/releases/download/v0.8.0/scio-repl-0.8.0.jar"
+  sha256 "2673c8e406e244970c64ac44970d302315a3a6feb44c89041897a745ced04a65"
 
   bottle :unneeded
 

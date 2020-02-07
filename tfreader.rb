@@ -1,7 +1,7 @@
 class Tfreader < Formula
   homepage "https://github.com/spotify/tfreader"
-  url "https://github.com/spotify/tfreader/releases/download/v0.0.2/tfr-v0.0.2-macOS.tar.gz"
-  sha256 "8a4c27ba7119b397a2fb6ccd02bff5f231789f821129477d8b1fbe789c50a401"
+  url "https://github.com/spotify/tfreader/releases/download/v0.0.3/tfr-v0.0.3-macOS.tar.gz"
+  sha256 "238e8eaaaefe3ce065fc999758e96b3a7758a7523b5fef8ac2ae3c1b8d5279f3"
 
   def install
     bin.install "tfr"

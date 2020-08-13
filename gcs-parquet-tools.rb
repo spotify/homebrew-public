@@ -1,9 +1,9 @@
 class GcsParquetTools < Formula
   desc "GCS compatible Apache Parquet Tools"
   homepage "https://github.com/spotify/gcs-tools"
-  url "https://github.com/spotify/gcs-tools/releases/download/v0.1.11/parquet-tools-1.11.0.jar"
-  sha256 "9ea7f530e1b97df0f95d4d509b1415a16ccf3a294e19a563b2edcfce3b5e36b3"
-  version "0.1.11"
+  url "https://github.com/spotify/gcs-tools/releases/download/v0.1.12/parquet-tools-1.11.1.jar"
+  sha256 "03b13c1eb1e69ced013ea3121e66455204c0b4fe90de8fde6a1aaee2713dd429"
+  version "0.1.12"
 
   conflicts_with "parquet-tools", :because => "provides the same binaries/links."
 
@@ -12,8 +12,8 @@ class GcsParquetTools < Formula
   depends_on :java => "1.8+"
 
   def install
-    libexec.install "parquet-tools-1.11.0.jar"
-    bin.write_jar_script libexec/"parquet-tools-1.11.0.jar", "parquet-tools"
+    libexec.install "parquet-tools-1.11.1.jar"
+    bin.write_jar_script libexec/"parquet-tools-1.11.1.jar", "parquet-tools"
   end
 
   test do

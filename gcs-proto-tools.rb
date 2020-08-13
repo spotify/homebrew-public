@@ -10,8 +10,8 @@ class GcsProtoTools < Formula
   depends_on :java => "1.8+"
 
   def install
-    libexec.install "proto-tools-3.12.4.jar"
-    bin.write_jar_script libexec/"proto-tools-3.12.4.jar", "proto-tools"
+    libexec.install "proto-tools-#{version}.jar"
+    bin.write_jar_script libexec/"proto-tools-#{version}.jar", "proto-tools"
   end
 
   test do

@@ -12,8 +12,8 @@ class GcsParquetTools < Formula
   depends_on :java => "1.8+"
 
   def install
-    libexec.install "parquet-tools-1.11.0.jar"
-    bin.write_jar_script libexec/"parquet-tools-1.11.0.jar", "parquet-tools"
+    libexec.install "parquet-tools-#{version}.jar"
+    bin.write_jar_script libexec/"parquet-tools-#{version}.jar", "parquet-tools"
   end
 
   test do

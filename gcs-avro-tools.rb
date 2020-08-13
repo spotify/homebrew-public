@@ -12,8 +12,8 @@ class GcsAvroTools < Formula
   depends_on :java => "1.8+"
 
   def install
-    libexec.install "avro-tools-1.8.2.jar"
-    bin.write_jar_script libexec/"avro-tools-1.8.2.jar", "avro-tools"
+    libexec.install "avro-tools-#{version}.jar"
+    bin.write_jar_script libexec/"avro-tools-#{version}.jar", "avro-tools"
   end
 
   test do

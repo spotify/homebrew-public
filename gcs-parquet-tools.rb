@@ -9,7 +9,7 @@ class GcsParquetTools < Formula
 
   bottle :unneeded
 
-  depends_on :java => "1.8+"
+  depends_on "openjdk@11"
 
   def install
     libexec.install "parquet-tools-1.11.1.jar"

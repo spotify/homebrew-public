@@ -9,6 +9,8 @@ class GcsParquetTools < Formula
 
   bottle :unneeded
 
+  deprecate! date: "2021-03-08", because: "is deprecated upstream, use parquet-cli instead"
+
   depends_on "openjdk@11"
 
   def install

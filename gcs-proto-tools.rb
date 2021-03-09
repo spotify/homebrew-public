@@ -1,17 +1,17 @@
 class GcsProtoTools < Formula
   desc "GCS compatible tools for Scio Protobuf in Avro file"
   homepage "https://github.com/spotify/gcs-tools"
-  url "https://github.com/spotify/gcs-tools/releases/download/v0.1.12/proto-tools-3.12.4.jar"
-  sha256 "1222d565aa6d4b5d3f60dc0016db69a80e964687f5d43b30b909d403344d2a16"
-  version "0.1.12"
+  url "https://github.com/spotify/gcs-tools/releases/download/v0.2.0/proto-tools-3.15.1.jar"
+  sha256 "e8f17d565bb981fbfc177912d74a2f6dfeff55d53b3fa1e8e75394b9b99e8572"
+  version "0.2.0"
 
   bottle :unneeded
 
   depends_on "openjdk@11"
 
   def install
-    libexec.install "proto-tools-3.12.4.jar"
-    bin.write_jar_script libexec/"proto-tools-3.12.4.jar", "proto-tools"
+    libexec.install "proto-tools-3.15.1.jar"
+    bin.write_jar_script libexec/"proto-tools-3.15.1.jar", "proto-tools"
   end
 
   test do

@@ -7,8 +7,6 @@ class GcsMagnolifyTools < Formula
 
   bottle :unneeded
 
-  depends_on "openjdk@11"
-
   def install
     libexec.install "magnolify-tools-0.4.3.jar"
     bin.write_jar_script libexec/"magnolify-tools-0.4.3.jar", "magnolify-tools"

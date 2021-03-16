@@ -11,8 +11,6 @@ class GcsParquetTools < Formula
 
   deprecate! date: "2021-03-08", because: "is deprecated upstream, use parquet-cli instead"
 
-  depends_on "openjdk@11"
-
   def install
     libexec.install "parquet-tools-1.11.1.jar"
     bin.write_jar_script libexec/"parquet-tools-1.11.1.jar", "parquet-tools"

@@ -7,8 +7,6 @@ class GcsParquetCli < Formula
 
   bottle :unneeded
 
-  depends_on "openjdk@11"
-
   def install
     libexec.install "parquet-cli-1.11.1.jar"
     bin.write_jar_script libexec/"parquet-cli-1.11.1.jar", "parquet-cli"

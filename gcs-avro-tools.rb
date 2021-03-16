@@ -9,8 +9,6 @@ class GcsAvroTools < Formula
 
   bottle :unneeded
 
-  depends_on "openjdk@11"
-
   def install
     libexec.install "avro-tools-1.10.1.jar"
     bin.write_jar_script libexec/"avro-tools-1.10.1.jar", "avro-tools"

@@ -7,8 +7,6 @@ class GcsProtoTools < Formula
 
   bottle :unneeded
 
-  depends_on "openjdk@11"
-
   def install
     libexec.install "proto-tools-3.15.5.jar"
     bin.write_jar_script libexec/"proto-tools-3.15.5.jar", "proto-tools"

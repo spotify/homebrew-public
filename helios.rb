@@ -6,7 +6,7 @@ class Helios < Formula
   sha256 "d6461bd3d45ca51bc5b75af479e75c0d060b249dee6a9c92692cf2f5ba97bd0d"
   version "0.9.282"
 
-  depends_on "openjdk@8"
+  depends_on "openjdk"
 
   def install
     jarfile = "helios-tools-#{version}-shaded.jar"

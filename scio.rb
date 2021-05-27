@@ -1,13 +1,13 @@
 class Scio < Formula
   desc "Scala API for Apache Beam and Google Cloud Dataflow"
   homepage "https://github.com/spotify/scio/"
-  url "https://github.com/spotify/scio/releases/download/v0.10.3/scio-repl-0.10.3.jar"
-  sha256 "0019dfc4b32d63c1392aa264aed2253c1e0c2fb09216f8e2cc269bbfb8bb49b5"
+  url "https://github.com/spotify/scio/releases/download/v0.10.3/scio-repl.jar"
+  sha256 "ec2fdd3c40e178d2d54a7222302075918ba0853f8d410a59a87e71539b8cd5e6"
 
   bottle :unneeded
 
   def install
-    libexec.install "scio-repl-#{version}.jar"
+    libexec.install "scio-repl.jar"
     (bin+"scio-repl").write <<~EOS
       #!/usr/bin/env bash
       java_opts=()
@@ -20,7 +20,7 @@ class Scio < Formula
           fi
       done
 
-      CLASSPATH="#{libexec}/scio-repl-#{version}.jar"${CLASSPATH:+:${CLASSPATH}} exec java ${java_opts[*]} com.spotify.scio.repl.ScioShell ${scio_opts[*]}
+      CLASSPATH="#{libexec}/scio-repl.jar"${CLASSPATH:+:${CLASSPATH}} exec java ${java_opts[*]} com.spotify.scio.repl.ScioShell ${scio_opts[*]}
     EOS
   end
 

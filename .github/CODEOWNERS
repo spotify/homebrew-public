@@ -1,2 +1,4 @@
 helios*             @spotify/helios
 scio.rb             @spotify/flatmap
+tfreader.rb         @spotify/flatmap
+gcs*                @spotify/flatmap

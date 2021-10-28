@@ -4,8 +4,6 @@ class Scio < Formula
   url "https://github.com/spotify/scio/releases/download/v0.11.1/scio-repl.jar"
   sha256 "67897fa8d7b624cfea45f7749067c22fd4ed1e6d18c418c924136cff1aa012f6"
 
-  bottle :unneeded
-
   def install
     libexec.install "scio-repl.jar"
     (bin+"scio-repl").write <<~EOS

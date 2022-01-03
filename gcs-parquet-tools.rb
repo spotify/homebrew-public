@@ -7,8 +7,6 @@ class GcsParquetTools < Formula
 
   conflicts_with "parquet-tools", :because => "provides the same binaries/links."
 
-  bottle :unneeded
-
   deprecate! date: "2021-03-08", because: "is deprecated upstream, use parquet-cli instead"
 
   def install

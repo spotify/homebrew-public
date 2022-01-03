@@ -5,8 +5,6 @@ class GcsMagnolifyTools < Formula
   sha256 "1303da523b684e91437d3392a36fa67901f65fc56d2552ee821f6acccc06091c"
   version "0.2.1"
 
-  bottle :unneeded
-
   def install
     libexec.install "magnolify-tools-0.4.3.jar"
     bin.write_jar_script libexec/"magnolify-tools-0.4.3.jar", "magnolify-tools"

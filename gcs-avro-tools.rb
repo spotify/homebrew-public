@@ -7,8 +7,6 @@ class GcsAvroTools < Formula
 
   conflicts_with "avro-tools", :because => "provides the same binaries/links."
 
-  bottle :unneeded
-
   def install
     libexec.install "avro-tools-1.10.1.jar"
     bin.write_jar_script libexec/"avro-tools-1.10.1.jar", "avro-tools"

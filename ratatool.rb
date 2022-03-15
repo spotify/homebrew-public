@@ -1,8 +1,8 @@
 class Ratatool < Formula
   desc "Tool for random data sampling and generation"
   homepage "https://github.com/spotify/ratatool"
-  url "https://github.com/spotify/ratatool/releases/download/v0.3.25/ratatool-cli-0.3.25.tar.gz"
-  sha256 "ce62b63750888738c98bd826111409834b31931d3193edb12a472234f97772d0"
+  url "https://github.com/spotify/ratatool/releases/download/v0.3.26/ratatool-cli-0.3.26.tar.gz"
+  sha256 "fdf5dfe596515b253557bc4566a13d3296362df2157fc1d49d3aeab716308817"
 
   def install
       lib.install Dir["lib/*.jar"]

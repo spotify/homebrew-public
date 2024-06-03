@@ -1,5 +1,5 @@
 helios*             @spotify/helios
-ratatool.rb         @spotify/flatmap @spotify/blizzard
+ratatool.rb         @spotify/flatmap @spotify/dmx
 scio.rb             @spotify/flatmap
 tfreader.rb         @spotify/flatmap
 gcs*                @spotify/flatmap

@@ -1,9 +1,9 @@
 class GcsMagnolifyTools < Formula
   desc "GCS compatible Magnolify Tools"
   homepage "https://github.com/spotify/gcs-tools"
-  url "https://github.com/spotify/gcs-tools/releases/download/v0.3.2/magnolify-tools-0.7.4.jar"
-  sha256 "2a142df88d39fa78ec6d1df642b68525f5f06445da85f5be0a06fc0b6e784c9f"
-  version "0.3.2"
+  url "https://github.com/spotify/gcs-tools/releases/download/v0.3.3/magnolify-tools-0.7.4.jar"
+  sha256 "b9e5cd115f0ce0f305d34cde5b272165dcd7e5e85f602ae76b0b07af9682bdc3"
+  version "0.3.3"
 
   def install
     libexec.install "magnolify-tools-0.7.4.jar"

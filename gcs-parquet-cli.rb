@@ -1,13 +1,13 @@
 class GcsParquetCli < Formula
   desc "GCS compatible Apache Parquet CLI"
   homepage "https://github.com/spotify/gcs-tools"
-  url "https://github.com/spotify/gcs-tools/releases/download/v0.3.4/parquet-cli-1.15.0.jar"
-  sha256 "56f11efcc8025ce04f03bc8559e2e0a34a8ae9b8a9134c48cad603de0e83dd76"
-  version "0.3.4"
+  url "https://github.com/spotify/gcs-tools/releases/download/v0.3.5/parquet-cli-1.17.1.jar"
+  sha256 "d3bc46902048796a7615d5a90c0bdab571664b54e12c6127958b94529e9951d8"
+  version "0.3.5"
 
   def install
-    libexec.install "parquet-cli-1.15.0.jar"
-    bin.write_jar_script libexec/"parquet-cli-1.15.0.jar", "parquet-cli"
+    libexec.install "parquet-cli-1.17.1.jar"
+    bin.write_jar_script libexec/"parquet-cli-1.17.1.jar", "parquet-cli"
   end
 
   test do
